@@ -26,7 +26,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Sorterar tillvalen på onlinepizza efter namn istället för total jävla randomness
-// @author       Fabiono den kulturelle
+// @author       Fabian Nachenius
 // @match        https://onlinepizza.se/restaurant/*
 // @grant        none
 // ==/UserScript==
