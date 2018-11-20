@@ -5,11 +5,19 @@ Detta script sorterar tillvalen (toppings) på Onlinepizza och kan köras i webb
 
 ### Installation i Chrome
 1. Installera Chrome-pluginet TamperMonkey
-2. Ladda ner filen "Onlinepizza sorterade tillval.user.js" från det här repositoriet
-3. Öppna TamperMonkey i en egen flik och klicka på tabben "Utilities"
-4. Välj att importera en fil från datorn, leta upp filen du laddade ner innan och klicka "OK"
+2. Gå till https://github.com/FabianNachenius/OnlinePizza-sorterade-toppings/blob/master/Onlinepizza%20sorterade%20tillval.user.js
+3. Klicka på knappen "Raw"
+3. En popup från TamperMonkey borde fråga dig om du vill installera scriptet
+4. Godkänn installationen
 
-Nu borde alla toppings vara sorterade alfabetiskt! Om inte så bör du kontrollera att TamperMonkey körs och att scriptet är påslaget när du går in på onlinepizza.
+### Installation i Firefox
+1. Installera Firefox-pluginet GreaseMonkey
+2. Gå till https://github.com/FabianNachenius/OnlinePizza-sorterade-toppings/blob/master/Onlinepizza%20sorterade%20tillval.user.js
+3. Klicka på knappen "Raw"
+3. En popup från GreaseMonkey borde fråga dig om du vill installera scriptet
+4. Godkänn installationen
+
+Nu borde alla toppings vara sorterade alfabetiskt!
 
 ## License
 
