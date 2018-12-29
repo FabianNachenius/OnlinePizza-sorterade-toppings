@@ -15,7 +15,7 @@ Detta script sorterar tillvalen (toppings) på Onlinepizza och kan köras i webb
 3. En popup från GreaseMonkey borde fråga dig om du vill installera scriptet
 4. Godkänn installationen
 
-Nu borde alla toppings vara sorterade alfabetiskt!
+Nu borde alla toppings vara sorterade alfabetiskt! Annars, testa att uppdatera sidan om du redan har den öppen.
 
 ## License
 
