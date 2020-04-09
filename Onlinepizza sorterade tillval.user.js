@@ -27,7 +27,7 @@
 // @version      0.1
 // @description  Sorterar tillvalen på onlinepizza efter namn istället för total jävla randomness
 // @author       Fabian Nachenius
-// @match        https://onlinepizza.se/restaurant/*
+// @match        https://foodora.se/restaurant/*
 // @grant        none
 // ==/UserScript==
 
