@@ -1,6 +1,6 @@
 /*********************************************************************************
 * MIT License
-* 
+*
 * Copyright (c) 2018 Fabian Nachenius
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,12 +22,13 @@
 * SOFTWARE.
 **********************************************************************************/
 // ==UserScript==
-// @name         Onlinepizza sorterade tillval
+// @name         Foodora sorterade tillval
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Sorterar tillvalen på onlinepizza efter namn istället för total jävla randomness
 // @author       Fabian Nachenius
 // @match        https://foodora.se/restaurant/*
+// @match        https://www.foodora.se/restaurant/*
 // @grant        none
 // ==/UserScript==
 
@@ -47,7 +48,7 @@
         if(typeof toppingsContainer != 'undefined') {
             // Same with the list of toppings. This had to be selected as a sub-item of the toppings container, otherwise we would get unwanted elements such as the pizza size selection.
             try {
-                var toppingsListContainer = toppingsContainer[0].getElementsByClassName("topping__options js-topping-options");
+                var toppingsListContainer = toppingsContainer[0].getElementsByClassName("js-topping-options");
             }
             catch(err) {
                 return;
@@ -98,7 +99,7 @@
 
                 });
 
-                // Compare the sorted array with the unsorted to see if the elements are already in order
+                // Compare the sorted array with the unsorted to see if the elements are already in order. Don't wanna risk messing up the GUI if we don't need to.
                 var sorted = true;
                 for (i = 0; i < childArr.length; ++i) {
                     if(childArr[i] != unsortedChildArr[i]) {
